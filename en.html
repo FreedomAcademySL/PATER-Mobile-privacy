@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PATER Privacy Policy</title>
+<meta name="description" content="PATER privacy policy: all processing happens on your device; nothing is collected, stored, shared, or leaves your phone.">
+<style>
+  :root{--bg:#0d0d0d;--card:#161616;--text:#e6e1d7;--muted2:#9a958a;--gold:#c8a35c;--line:#2a2a2a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,Segoe UI,Roboto,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 22px 80px}
+  h1{color:var(--gold);font-size:1.9em;line-height:1.25;margin:.2em 0 .4em}
+  h2{color:var(--gold);font-size:1.15em;margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.35em}
+  a{color:var(--gold)}
+  .meta{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:1.2em 0;font-size:.95em}
+  .meta div{margin:.25em 0}
+  blockquote{margin:1.2em 0;padding:14px 18px;background:var(--card);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;color:var(--text)}
+  .lang{float:right;font-size:.9em}
+  ul{padding-left:1.2em}
+  footer{margin-top:3em;color:var(--muted2);font-size:.85em;border-top:1px solid var(--line);padding-top:1em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="lang"><a href="index.html">Versión en español</a></p>
+<h1>PATER Privacy Policy</h1>
+
+<div class="meta">
+  <div><b>Application:</b> PATER (PATER-Mobile)</div>
+  <div><b>Effective date:</b> 2026-06-04</div>
+  <div><b>Controller / contact:</b> Freedom Academy — <a href="mailto:freedom.academy.s.l@gmail.com">freedom.academy.s.l@gmail.com</a></div>
+  <div><b>Public URL of this policy:</b> <a href="https://freedomacademysl.github.io/PATER-Mobile-privacy/en.html">https://freedomacademysl.github.io/PATER-Mobile-privacy/en.html</a></div>
+</div>
+
+<h2>1. What PATER is and what it is for</h2>
+<p>PATER is a self-control and digital-wellbeing tool: you yourself choose which apps and sites you want to block, and PATER holds that decision even in the moment of temptation. It is a commitment device that you voluntarily activate on yourself; its purpose is to help you keep a restriction you chose.</p>
+
+<h2>2. What data is processed and how</h2>
+<p>This section reproduces PATER's canonical data-handling description <b>word for word</b>. It is the authoritative text: every other surface (the Data Safety form, the VpnService declaration, the in-app disclosure dialog) must match it.</p>
+<blockquote>PATER is a self-control and digital-wellbeing tool: you yourself choose which apps and sites you want to block, and PATER holds that decision even in the moment of temptation. All processing happens on your device. To show the block screen, PATER uses Android's Accessibility Service only to read in memory which app comes to the foreground, then immediately discards that information; it does not read your screen content. To block websites, PATER creates a local, on-device VPN that inspects only DNS queries: the domains you blocked are rejected on the device (an NXDOMAIN response), and the rest of your traffic passes unchanged. PATER operates no server, does not send your traffic to any server, does not log or monitor it, does not inject or block ads, and nothing is collected, stored, shared, or leaves your device. DNS queries that are not blocked are resolved by your device's configured DNS or public resolvers (for example 8.8.8.8 or 1.1.1.1), exactly as normal browsing does — PATER does not collect or store those queries.</blockquote>
+
+<h2>3. On-device processing only</h2>
+<p>All processing happens <b>on your device</b>. PATER runs locally: there is no backend, no user account, no cloud sync. No data leaves your phone because of PATER.</p>
+
+<h2>4. DNS query forwarding (important clarification)</h2>
+<p>DNS queries that are not blocked are resolved by your device's configured DNS or public resolvers (for example 8.8.8.8 or 1.1.1.1), exactly as normal browsing does — PATER does not collect or store those queries. PATER is not the recipient of those queries: it simply lets them continue their normal course to the resolver your device already has configured. Those third-party resolvers are governed by their own privacy policies, exactly as when you browse without PATER.</p>
+
+<h2>5. Nothing is collected or shared</h2>
+<p>PATER <b>operates no server</b>, <b>does not send your traffic to any server</b>, <b>does not log or monitor it</b>, <b>does not inject or block ads</b>, and <b>nothing is collected, stored, shared, or leaves your device</b>. There is no collection of personal data, no data shared with third parties, no advertising and no tracking.</p>
+
+<h2>6. Sensitive permissions PATER uses</h2>
+<ul>
+  <li><b>Accessibility Service:</b> used <b>only</b> to read in memory which app comes to the foreground, then immediately discards that information; it <b>does not read your screen content</b>.</li>
+  <li><b>Local VPN (VpnService):</b> a <b>local, on-device</b> VPN that inspects <b>only DNS queries</b>; the domains you blocked are rejected on the device (an NXDOMAIN response) and the rest of your traffic passes unchanged.</li>
+</ul>
+
+<h2>7. Your rights</h2>
+<p>Because PATER collects and stores no personal data, there is no data about you to request, correct, or delete from any server: it simply does not exist outside your device. The apps and URLs you added to your personal list live locally and disappear when you uninstall PATER.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>If we change this policy, we will update the effective date above and publish the revised version at the same URL. Any change to data handling is first reconciled against the canonical document (<code>CANONICAL-DATA-HANDLING.md</code>), which is the single source of truth.</p>
+
+<h2>9. Contact</h2>
+<p><a href="mailto:freedom.academy.s.l@gmail.com">freedom.academy.s.l@gmail.com</a></p>
+
+<footer>PATER — Freedom Academy · <a href="index.html">Versión en español</a></footer>
+</div>
+</body>
+</html>
