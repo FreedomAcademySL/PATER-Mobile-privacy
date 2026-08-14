@@ -28,41 +28,36 @@
 
 <div class="meta">
   <div><b>Aplicación:</b> PATER (PATER-Mobile)</div>
-  <div><b>Fecha de vigencia:</b> 2026-06-04</div>
+  <div><b>Fecha de vigencia:</b> 2026-08-13</div>
   <div><b>Responsable / contacto:</b> Freedom Academy — <a href="mailto:freedom.academy.s.l@gmail.com">freedom.academy.s.l@gmail.com</a></div>
   <div><b>URL pública de esta política:</b> <a href="https://freedomacademysl.github.io/PATER-Mobile-privacy/">https://freedomacademysl.github.io/PATER-Mobile-privacy/</a></div>
 </div>
 
 <h2>1. Qué es PATER y para qué se usa</h2>
-<p>PATER es una herramienta de autocontrol y bienestar digital: vos mismo elegís qué apps y sitios querés bloquearte, y PATER mantiene esa decisión incluso en el momento de la tentación. Es un dispositivo de compromiso (<i>commitment device</i>) que vos activás voluntariamente sobre vos mismo; su propósito es ayudarte a sostener una restricción que elegiste.</p>
-<p>PATER incluye una lista base curada de apps y sitios que no se puede sacar: ese es el punto. Vos elegís sumar tus propias apps y sitios; las protecciones base quedan firmes como garantía de tu compromiso. Esta lista (la base y tus agregados) vive únicamente en tu dispositivo.</p>
+<p>PATER es una herramienta de autocontrol y bienestar digital: vos mismo elegís qué apps querés bloquearte, y PATER mantiene esa decisión incluso en el momento de la tentación. Es un dispositivo de compromiso (<i>commitment device</i>) que vos activás voluntariamente sobre vos mismo; su propósito es ayudarte a sostener una restricción que elegiste.</p>
+<p>PATER incluye una lista base curada de apps que no se puede sacar: ese es el punto. Vos elegís sumar tus propias apps; las protecciones base quedan firmes como garantía de tu compromiso. Esta lista (la base y tus agregados) vive únicamente en tu dispositivo.</p>
 
 <h2>2. Qué datos se procesan y cómo</h2>
-<p>Esta sección reproduce <b>palabra por palabra</b> la descripción canónica de manejo de datos de PATER. Es el texto autoritativo: cualquier otra superficie (el formulario Data Safety, la declaración de VpnService, el diálogo de divulgación in-app) debe coincidir con él.</p>
-<blockquote>PATER es una herramienta de autocontrol y bienestar digital: vos mismo elegís qué apps y sitios querés bloquearte, y PATER mantiene esa decisión incluso en el momento de la tentación. Todo el procesamiento ocurre en tu dispositivo. Para mostrar la pantalla de bloqueo, PATER usa el Servicio de Accesibilidad de Android solo para leer en memoria qué aplicación pasa a primer plano, y enseguida descarta ese dato; no lee el contenido de tu pantalla. Para bloquear sitios web, PATER crea una VPN local en tu dispositivo que revisa únicamente las consultas DNS: los dominios que vos bloqueaste se rechazan en el dispositivo (se responde NXDOMAIN), y el resto del tráfico pasa sin cambios. PATER no opera ningún servidor, no envía tu tráfico a ningún servidor, no lo registra ni lo monitorea, no inyecta ni bloquea anuncios, y nada se recopila, guarda, comparte ni sale de tu dispositivo. Las consultas DNS que no están bloqueadas las resuelve el DNS configurado de tu dispositivo o resolutores públicos (por ejemplo 8.8.8.8 o 1.1.1.1), exactamente como en la navegación normal — PATER no recopila ni almacena esas consultas.</blockquote>
+<blockquote>Todo el procesamiento ocurre en tu dispositivo. Para mostrar la pantalla de bloqueo, PATER usa el Servicio de Accesibilidad de Android solo para leer en memoria qué aplicación pasa a primer plano, y enseguida descarta ese dato; no lee el contenido de tu pantalla. PATER no opera ningún servidor, no envía tu actividad a ningún servidor, no la registra ni la monitorea, no inyecta ni bloquea anuncios, y nada se recopila, guarda, comparte ni sale de tu dispositivo.</blockquote>
 
 <h2>3. Procesamiento solo en el dispositivo</h2>
 <p>Todo el procesamiento ocurre <b>en tu dispositivo</b>. PATER funciona de forma local: no hay backend, no hay cuenta de usuario, no hay sincronización en la nube. Ningún dato sale de tu teléfono por acción de PATER.</p>
 
-<h2>4. Reenvío de consultas DNS (aclaración importante)</h2>
-<p>Las consultas DNS que <b>no</b> están bloqueadas las resuelve el DNS configurado de tu dispositivo o resolutores públicos (por ejemplo 8.8.8.8 o 1.1.1.1), exactamente como en la navegación normal — PATER no recopila ni almacena esas consultas. PATER no es el destinatario de esas consultas: solo deja que sigan su curso normal hacia el resolutor que tu dispositivo ya tiene configurado. Esos resolutores de terceros se rigen por sus propias políticas de privacidad, igual que cuando navegás sin PATER.</p>
+<h2>4. Nada se recopila ni se comparte</h2>
+<p>PATER <b>no opera ningún servidor</b>, <b>no envía tu actividad a ningún servidor</b>, <b>no la registra ni la monitorea</b>, <b>no inyecta ni bloquea anuncios</b>, y <b>nada se recopila, guarda, comparte ni sale de tu dispositivo</b>. No hay recopilación de datos personales, no hay datos compartidos con terceros, no hay publicidad ni rastreo.</p>
 
-<h2>5. Nada se recopila ni se comparte</h2>
-<p>PATER <b>no opera ningún servidor</b>, <b>no envía tu tráfico a ningún servidor</b>, <b>no lo registra ni lo monitorea</b>, <b>no inyecta ni bloquea anuncios</b>, y <b>nada se recopila, guarda, comparte ni sale de tu dispositivo</b>. No hay recopilación de datos personales, no hay datos compartidos con terceros, no hay publicidad ni rastreo.</p>
-
-<h2>6. Permisos sensibles que usa PATER</h2>
+<h2>5. Permisos sensibles que usa PATER</h2>
 <ul>
   <li><b>Servicio de Accesibilidad:</b> se usa <b>solo</b> para leer en memoria qué aplicación pasa a primer plano, y enseguida descarta ese dato; <b>no lee el contenido de tu pantalla</b>.</li>
-  <li><b>VPN local (VpnService):</b> una VPN <b>local en tu dispositivo</b> que revisa <b>únicamente las consultas DNS</b>; los dominios que bloqueaste se rechazan en el dispositivo (se responde NXDOMAIN) y el resto del tráfico pasa sin cambios.</li>
 </ul>
 
-<h2>7. Tus derechos</h2>
-<p>Como PATER no recopila ni almacena ningún dato personal, no hay datos sobre vos que solicitar, corregir o eliminar de ningún servidor: simplemente no existen fuera de tu dispositivo. Las apps y URLs que agregaste a tu lista personal viven localmente y desaparecen al desinstalar PATER.</p>
+<h2>6. Tus derechos</h2>
+<p>Como PATER no recopila ni almacena ningún dato personal, no hay datos sobre vos que solicitar, corregir o eliminar de ningún servidor: simplemente no existen fuera de tu dispositivo. Las apps que agregaste a tu lista personal viven localmente y desaparecen al desinstalar PATER.</p>
 
-<h2>8. Cambios en esta política</h2>
-<p>Si cambiamos esta política, actualizaremos la fecha de vigencia arriba y publicaremos la versión revisada en la misma URL. Cualquier cambio en el manejo de datos se reconcilia primero contra el documento canónico (<code>CANONICAL-DATA-HANDLING.md</code>), que es la única fuente de verdad.</p>
+<h2>7. Cambios en esta política</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de vigencia arriba y publicaremos la versión revisada en la misma URL.</p>
 
-<h2>9. Contacto</h2>
+<h2>8. Contacto</h2>
 <p><a href="mailto:freedom.academy.s.l@gmail.com">freedom.academy.s.l@gmail.com</a></p>
 
 <footer>PATER — Freedom Academy · <a href="en.html">English version</a></footer>
